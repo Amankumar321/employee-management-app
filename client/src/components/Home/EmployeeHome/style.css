@@ -1,0 +1,275 @@
+.main-employee {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    max-width: 1200px;
+    height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.topbar-employee {
+    height: 70px;
+    padding: 20px 0px;
+    background-color: rgb(84, 60, 152);
+    width: calc(100% - 1em);
+    margin: 0em 0.5em 1em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-wrap {
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+    overflow: scroll;
+}
+
+.task-list-wrap {
+    width: 50%;
+    background-color: white;
+    margin: 0em 0.5em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-graph-wrap {
+    width: 50%;
+    background-color: white;
+    margin: 0em 0.5em;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 600px) {
+    .task-list-wrap {
+        z-index: 2;
+        width: 100%;
+    }    
+    .task-graph-wrap {
+        width: 100%;
+    }
+}
+
+.hide-graph-employee {
+    position: absolute;
+    top: 0px;
+    font-size: 24px;
+    padding: 0px;
+    width: 30px;
+    box-sizing: border-box;
+    left: 100%;
+    transform: translate(-100%, 0%);
+    background-color: white;
+}
+
+@media screen and (min-width: 600px) {
+    .hide-graph-employee {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .invisible-employee-mobile {
+        display: none;
+    }
+}
+
+.invisible-employee {
+    display: none;
+}
+
+.logout-btn {
+    width: 100px;
+    font-size: 1em;
+    padding: 6px;
+    background-color: white;
+    border: 1px solid rgb(208, 208, 208);
+    box-sizing: border-box;
+    margin-right: 2em;
+}
+
+.dashboard-heading {
+    font-size: 1.8em;
+    margin-left: 2em;
+    font-weight: 600;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .dashboard-heading {
+        font-size: 26px;
+        margin-left: 1em;
+    }
+    .logout-btn {
+        margin-right: 1em;
+    }
+    .topbar-employee {
+        margin: 0;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+}
+
+.sub-heading {
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.task-list-top, .task-graph-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid rgb(230, 230, 230);
+    position: relative;
+}
+
+.task-list-top {
+    justify-content: space-between;
+}
+
+.add-task-btn {
+    width: 140px;
+    font-size: 1em;
+    padding: 6px;
+    background-color: white;
+    border: 1px solid rgb(208, 208, 208);
+}
+
+.task-date-employee {
+    width: 110px;
+    font-size: 1em;
+    box-sizing: border-box;
+    padding: 6px;
+    background-color: white;
+    border: 1px solid rgb(208, 208, 208);
+    align-items: center;
+    margin-right: 1.4em;
+}
+
+.sub-heading-wrap {
+    margin: 1.4em 0.6em;
+}
+
+.button-wrap, .task-date-wrap {
+    display: flex;
+    align-items: center;
+    margin-right: 1.4em;
+}
+
+.set-date-wrap-employee {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.filter-date-wrap-employee {
+    padding: 12px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.filter-date-btn-employee {
+    width: 140px;
+    font-size: 1em;
+    padding: 6px;
+    background-color: white;
+    border: 1px solid rgb(208, 208, 208);
+}
+
+@media screen and (min-width: 600px) {
+    .filter-date-wrap-employee {
+        display: none;
+    }
+}
+
+.employee-graph-content {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.apply-filter-btn-employee {
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgb(208, 208, 208);
+}
+
+.no-data-employee {
+    color: rgb(104, 104, 104);
+    margin: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.header-button-wrap {
+    display: flex;   
+}
+
+.edit-profile-btn {
+    width: 100px;
+    font-size: 1em;
+    padding: 6px;
+    background-color: white;
+    border: 1px solid rgb(208, 208, 208);
+    box-sizing: border-box;
+    margin-right: 2em;
+}
+
+.header-option-btn {
+    font-size: 20px;
+    padding: 6px 12px;
+    background-color: white;
+    border: 1px solid rgb(208, 208, 208);
+    box-sizing: border-box;
+    margin-right: 1em;
+    display: none;
+    position: relative;
+}
+
+.option-box-employee {
+    width: 120px;
+    position: absolute;
+    font-size: 14px;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    display: none;
+    height: fit-content;
+    box-shadow: 4px 4px 12px rgb(98, 98, 98);
+    z-index: 7;
+    flex-direction: column;
+}
+
+.option-tile-employee {
+    z-index: 8;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid rgb(208, 208, 208);
+}
+
+@media screen and (max-width: 600px) {
+    .header-option-btn {
+        display: flex;
+    }
+    .edit-profile-btn {
+        display: none;
+    }
+    .logout-btn {
+        display: none;
+    }
+}
