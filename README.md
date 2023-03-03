@@ -16,7 +16,7 @@ MERN (MongoDB, Expressjs, Reactjs, Nodejs)
 
 # Screenshot
 
-
+![alt text](https://github.com/Amankumar321/hex-racing/blob/main/hex.jpg?raw=true)
 
 # Setup:
 - run ```cd client``` then ```npm i && npm start``` for client
