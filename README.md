@@ -1,4 +1,24 @@
-Setup:
+# Dashboard Company
+
+Live demo - https://company-console.netlify.app
+
+- provides a central management of employee and admins
+- You can create admin accounts
+- Employees can add task done by them (lunch/meeting/work)
+- Admin can see all employees and visualise their current week task with bar chart
+- Admin can visualise task done by employee on a particular date with pie chart
+- Admin can create/deactivate an employee account
+- Employee can update their account
+
+# Tech stack
+
+MERN (MongoDB, Expressjs, Reactjs, Nodejs)
+
+# Screenshot
+
+
+
+# Setup:
 - run ```cd client``` then ```npm i && npm start``` for client
 - run ```cd server``` then ```npm i && npm start``` for server
 
