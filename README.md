@@ -12,7 +12,8 @@ Live demo - https://company-console.netlify.app
 
 # Tech stack
 
-MERN (MongoDB, Expressjs, Reactjs, Nodejs)
+- MERN (MongoDB, Expressjs, Reactjs, Nodejs)
+- Chartsjs
 
 # Screenshot
 
