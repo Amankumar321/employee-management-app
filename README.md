@@ -24,7 +24,7 @@ Live demo - https://company-console.netlify.app
 - run ```cd server``` then ```npm i && npm start``` for server
 
 Internet Connection is required for database connection
-1. Clone repo using ```git clone https://github.com/Amankumar321/dashboard-company```
+1. Clone repo using ```git clone https://github.com/Amankumar321/employee-management-app```
 2. Repo contains two folders (client and server)
 3. Go to parent directory.
 4. Command “cd client” to move to client folder then “npm install” to Install all dependencies.
